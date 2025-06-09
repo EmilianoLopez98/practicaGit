@@ -11,6 +11,7 @@ git config user.email
 
 git remote add origin https://linkDelRepoAquí
 git branch -M main
+    Pa' que sepas papi, aquí estás indicando que tu rama principal será main.
 git push -u origin main
     Pa' que vincules ésta madre, esto es cuando en el repo de GitHub no hay na', caso contrario harías un clone perrillo.
 
@@ -40,3 +41,8 @@ git log
 git log --oneline
     Lo mismo que el anterior pero en una sóla línea. Osea se ve más clean paps.
 
+git checkout -b theBranch
+    Aquí lo que hiciste fue crear una rama y saltar a ella pa'.
+
+git checkout main
+    Aquí estás yendo a la rama main papi, pero podría ser cualquier otra rama, de hecho en el push donde actualizamos éste documento habrá sido creada otra rama.
