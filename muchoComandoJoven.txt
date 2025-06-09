@@ -1,0 +1,42 @@
+git init
+    Aquí ya llamaste a Git pa' que se ponga a jalar.
+
+git config user.name 'nombre'
+git config user.email 'email@ejemplo.com'
+    Necesitas este pedo de buenas a primeras pa', pa identificarte.
+
+git config user.name
+git config user.email
+    Aquí consultas lo anterior.
+
+git remote add origin https://linkDelRepoAquí
+git branch -M main
+git push -u origin main
+    Pa' que vincules ésta madre, esto es cuando en el repo de GitHub no hay na', caso contrario harías un clone perrillo.
+
+Simbolos:
+    U - Untracked, osea sin trackear papá.
+        Esto requirió un git add papi.
+    A - Added, osea preparado father.
+        Aqui al cien para el commit, bonita.
+    M - Modified, ¿te lo tengo que explicar?
+        Aqui aún no le haz hecho ni U ni A papito, al pedo.
+    D - Deleted, misma pregunta del anterior.
+        Curiosamente usa el A para confirmar el borrao'.
+
+git status
+    Te muestra todo el pedo mi amor, qué has agregado, si modificaste algo, y así.
+
+git rm --cached archivo.ejemplo
+    Quitas el archivo que habías agregado con el git add papi, ponte verga.
+
+git commit -m 'mensaje'
+    Aquí explicas qué pedo con lo que se va a actualizar mi amor, el mensaje que sea conciso pero explicativo.
+    Tipo 'hice un cambio', pa' eso mejor no hagas nada la neta, explica bien pero breve.
+
+git log
+    Pa' que consultes los commits que has realizado chiquita, eso sí, de forma local.
+
+git log --oneline
+    Lo mismo que el anterior pero en una sóla línea. Osea se ve más clean paps.
+
